@@ -19,6 +19,8 @@ No breadboard, PCB or perfboard. Wiring done loose with AWG and soldering. Code 
 
 Fade on when powered, capacitor constantly being filled -> power switch flipped, capacitor discharges power into pico VSYS, fade-out animation on LEDs.
 
+**Fade out animation based on capacitor microfarads**
+
 470uF is about 0.5s
 
 **1000uF is about 1s**
