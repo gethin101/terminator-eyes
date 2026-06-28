@@ -1,3 +1,10 @@
+# Terminator Eyes
+Simple terminator eyes LED fade-in and fade-out animation project with raspberry pi pico, 1N4148 diode and 1000uF electrolytic capacitor
+
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) [Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+
+
+
 # BOM
 | Qty | Item | Cost (£) | Link | Notes |
 |-----|------|----------|------|-------|
