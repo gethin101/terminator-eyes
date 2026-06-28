@@ -29,8 +29,9 @@ Fade on when powered, capacitor constantly being filled -> power switch flipped,
 
 2200uF is about 2s
 
+---
+
 # Wiring
-# Wiring Table (Soft-Off Fade-Out Circuit)
 
 | From                     | To                          | Notes |
 |--------------------------|------------------------------|-------|
