@@ -10,7 +10,9 @@
 | 4 | AA batteries | **OWN** | N/A | 1.5V each, KODAK |
 
 **£5.43** running total
+
 **£10** fee
 
 No breadboard, PCB or perfboard. Wiring done loose with AWG and soldering. Code in Thonny Micropython.
+
 Fade on when powered, but instant off when pico loses power.
