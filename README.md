@@ -1,7 +1,7 @@
 # BOM
 | Qty | Item | Cost (£) | Link | Notes |
 |-----|------|----------|------|-------|
-| 1  | Pi Pico | **OWN** | N/A | Headers |
+| 1  | Raspberry Pi Pico | **OWN** | N/A | Headers |
 | 2 | Red LEDs | **OWN** | N/A | 5mm |
 | 2 | 330Ω resistors | **OWN** | N/A | 1/LED |
 | 2m | 22AWG silicone wire | £2.55 | [AE](https://www.aliexpress.com/item/1005006403191349.html?spm=a2g0o.order_list.order_list_main.9.4ae71802DOKMSO) | Black 22AWG |
