@@ -34,7 +34,7 @@ Fade on when powered, capacitor constantly being filled -> power switch flipped,
 |--------------------------|------------------------------|-------|
 | Battery + (red)          | Switch INPUT                 | Main power feed into switch |
 | Switch OUTPUT            | 1N4148 diode (non‑stripe end) | Diode oriented toward Pico |
-| 1N4148 diode (stripe end)| Pico VSYS                    | Stripe end ALWAYS points to VSYS |
+| 1N4148 diode (stripe end)| Pico VSYS                    | Stripe end ALWAYS points to VSYS (black) |
 | Battery – (black)        | Pico GND                     | Common ground |
 | Capacitor + (long leg)   | Pico VSYS                    | Charges when Pico is powered |
 | Capacitor – (short leg)  | Pico GND                     | Provides discharge path |
