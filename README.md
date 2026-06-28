@@ -15,6 +15,7 @@
 **£** running total
 
 **£** fee
+
 ---
 No breadboard, PCB or perfboard. Wiring done loose with AWG and soldering. Code in Thonny Micropython.
 
