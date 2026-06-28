@@ -36,13 +36,10 @@ Fade on when powered, capacitor constantly being filled -> power switch flipped,
 | Switch OUTPUT            | 1N4148 diode (non‑stripe end) | Diode oriented toward Pico |
 | 1N4148 diode (stripe end)| Pico VSYS                    | Stripe end ALWAYS points to VSYS |
 | Battery – (black)        | Pico GND                     | Common ground |
-
 | Capacitor + (long leg)   | Pico VSYS                    | Charges when Pico is powered |
 | Capacitor – (short leg)  | Pico GND                     | Provides discharge path |
-
 | LED 1 anode (long leg)   | Pico GPIO (e.g., GP15)       | PWM pin for fade control |
 | LED 1 cathode (short leg)| 330Ω resistor → Pico GND     | Current limiting resistor |
-
 | LED 2 anode (long leg)   | Pico GPIO (e.g., GP14)       | Second PWM pin |
 | LED 2 cathode (short leg)| 330Ω resistor → Pico GND     | Current limiting resistor |
 
