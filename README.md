@@ -54,7 +54,7 @@ Fade on when powered, capacitor constantly being filled -> power switch flipped,
 | LED 2 cathode (short leg)| 330Ω resistor → Pico GND     | Current limiting resistor |
 
 <img width="1536" height="1024" alt="wiring image - AI" src="https://github.com/user-attachments/assets/db7eebaa-b6c0-4b2d-ab5b-d688e3ed3260" />
-****AI image****
+**AI image***
 
 
 
