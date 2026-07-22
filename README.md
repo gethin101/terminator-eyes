@@ -20,6 +20,8 @@ Simple terminator eyes LED fade-in and fade-out animation project with a raspber
 
 3mm red LEDs - £2.80
 
+10V 4700uf - £4.49
+
 ---
 
 
