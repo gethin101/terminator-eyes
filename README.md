@@ -27,7 +27,9 @@ It constantly monitors the signal going through GP16 from the SPST rocker switch
 
 <img width="392" height="486" alt="image" src="https://github.com/user-attachments/assets/c6555fb1-d46a-4c7d-bfb2-13a33e845faa" />
 
+
 When the switch is turned off, the supercapacitor keeps the pico powered for a short time so it can run the controlled fade-out instead of just losing power instantly and turning off. The 1N4148 diode makes sure that the power only flows through to the VSYS, allowing the pico to sense the switch state going to GP16 while still receiving power from the supercapacitor.
+
 
 After running the full animation, if the switch remains on, the LEDs will stay lit. If the switch is turned off at any point, the code immediately runs the fade-out function.
 
