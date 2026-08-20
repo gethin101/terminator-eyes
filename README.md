@@ -5,19 +5,15 @@ Terminator eyes LED fade-in and fade-out animation project with a raspberry pi p
 
 | Part                     | Use                                                                 |
 |--------------------------|---------------------------------------------------------------------|
-| Raspberry Pi Pico        | Runs the LED animation program and reads the switch input.          |
-| 4× AA Battery Pack       | Provides main power for the system.                                 |
-| On/Off Switch            | Turns the system on/off and signals the Pico to start/stop.         |
-| Diode (1N4148)           | Allows power to VSYS but blocks reverse flow back to the switch.    |
-| Supercapacitor (5.5V)    | Keeps the Pico powered briefly after switch-off for fade-out.       |
-| 100kΩ Resistor           | Pull-down so GP16 reads LOW when the switch is off.                 |
-| 2× LEDs                  | Creates the Terminator eye visual effect.                           |
-| 2× 220Ω Resistors        | Limits current to each LED.                                         |
-| Jumper Wires             | Connects all components together.                                   |
-
-
----
-
+| Raspberry Pi Pico        | Microcontroller to run LED program and read switch input            |
+| 4x AA Battery Pack       | 6V power for main system                                            |
+| KCD11 Rocker Switch      | Toggles power to the system and signals start / stop to the pico    |
+| 1N4148 diode             | Allows power to VSYS but blocks reverse flow back to the switch     |
+| Supercap (0.5F, 5.5V)    | Keeps the Pico powered after switch-off to run fade-out             |
+| 100kΩ Resistor           | Pull-down so GP16 reads LOW when the switch is off                  |
+| 2x 3mm RED LEDs          | Eyes inspired by terminator                                         |
+| 2x 220Ω Resistors        | Limits current to each LED so they don't burn out                   |
+| Jumper / silicon wire    | Connects all components together                                    |
 
 ---
 No breadboard, PCB or perfboard. Wiring done loose with AWG and soldering. Code in Thonny Micropython.
