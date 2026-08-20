@@ -23,7 +23,6 @@ def terminator_eye_full(duration_ms):
         progress = i / (steps - 1)
         level = int((progress**2.2) * 65535)
 
-        # mid‑fade blink
         if i == int(3500 / delay):
             set_both(0); utime.sleep_ms(40)
             set_both(level); utime.sleep_ms(40)
@@ -64,24 +63,23 @@ def terminator_eye_full(duration_ms):
     set_both(base)
     utime.sleep_ms(5000)
 
-    # fast fade-out
+
     for i in range(200):
         lvl = int(base - (i / 199) * base)
         set_both(lvl)
         utime.sleep_ms(2)
 
-    # blink after fade-out
+
     set_both(0); utime.sleep_ms(40)
     set_both(base)
 
-    # short gap before blackout
+
     utime.sleep_ms(70)
 
-    # blackout
+  
     set_both(0)
     utime.sleep_ms(600)
 
-    # post-blackout blink
     set_both(base)
     utime.sleep_ms(120)
     set_both(0); utime.sleep_ms(40)
@@ -96,17 +94,17 @@ def terminator_eye_full(duration_ms):
         if r < 3:
             set_both(0); utime.sleep_ms(60)
             set_both(base)
-            utime.sleep_ms(200)   # added pause
+            utime.sleep_ms(200)  
 
         elif r == 4:
             set_both(0); utime.sleep_ms(40)
             set_both(base); utime.sleep_ms(40)
             set_both(0); utime.sleep_ms(40)
             set_both(base)
-            utime.sleep_ms(300)   # added pause
+            utime.sleep_ms(300)  
 
         else:
-            utime.sleep_ms(150)   # idle pause
+            utime.sleep_ms(150)  
 
     set_both(base)
     utime.sleep_ms(8000)
