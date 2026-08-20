@@ -1,5 +1,7 @@
 # Terminator Eyes
-Terminator eyes LED fade-in and fade-out animation project with a raspberry pi pico, a 1N4148 diode, an 1000uF electrolytic capacitor, 22AWG silicone soldered wiring and powered by a 6V battery holder with a SPST rocket switch.
+Terminator eyes LED fade-in, blink and fade-out animation project with a raspberry pi pico, a 1N4148 diode, a 0.5F 5.5V supercapacitor, 22AWG silicone soldered wiring and powered by a 6V 4xAA battery holder with a SPST rocket switch.
+
+The pico drives two 3mm LED using PWM to create smooth brightness transitions, blinks and fade-outs. The 1N4148 diode feeds power from the switch output into VSYS while preventing reverse current flow and the 0.5F supercapacitor provides short power after switch-off to allow the pico to run the fade-out animation before losing full power.
 
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
