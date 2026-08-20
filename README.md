@@ -5,7 +5,7 @@ The pico drives two 3mm LED using PWM to create smooth brightness transitions, b
 
 ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-## BOM
+## BOM:
 | Part                     | Use                                                                 |
 |--------------------------|---------------------------------------------------------------------|
 | Raspberry Pi Pico        | Microcontroller to run LED program and read switch input            |
