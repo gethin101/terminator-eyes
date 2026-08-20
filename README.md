@@ -21,6 +21,8 @@ The pico drives two 3mm LED using PWM to create smooth brightness transitions, b
 ---
 ## Firmware:
 
+**See code:** [link](https://raw.githubusercontent.com/gethin101/terminator-eyes/refs/heads/main/main.py)
+
 The project is fully programmed in MicroPython via Thonny. The code uses pulse width modulation to create the terminator-style sequence. It handles the fade-in, blink effects, brightness ramps and the final fade-out. 
 
 It constantly monitors the signal going through GP16 from the SPST rocker switch so it knows when to run the fade-out and the 100kΩ pull‑down resistor ensures that the pico always detects the switch-off instantly.
