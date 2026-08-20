@@ -19,38 +19,6 @@ The pico drives two 3mm LED using PWM to create smooth brightness transitions, b
 | Jumper / silicon wire    | Connects all components together                                    |
 
 ---
-No breadboard, PCB or perfboard. Wiring done loose with AWG and soldering. Code in Thonny Micropython.
-
-Fade on when powered, capacitor constantly being filled -> power switch flipped, capacitor discharges power into pico VSYS, fade-out animation on LEDs.
-
-**Fade out animation based on capacitor microfarads**
-
-470uF is about 0.5s
-
-**1000uF is about 1s**
-
-2200uF is about 2s
-
----
-
-# Wiring
-
-| From                     | To                          | Notes |
-|--------------------------|------------------------------|-------|
-| Battery + (red)          | Switch INPUT                 | Main power feed into switch |
-| Switch OUTPUT            | 1N4148 diode (non‑stripe end) | Diode oriented toward Pico |
-| 1N4148 diode (stripe end)| Pico VSYS                    | Stripe end ALWAYS points to VSYS (black) |
-| Battery – (black)        | Pico GND                     | Common ground |
-| Capacitor + (long leg)   | Pico VSYS                    | Charges when Pico is powered |
-| Capacitor – (short leg)  | Pico GND                     | Provides discharge path |
-| LED 1 anode (long leg)   | Pico GPIO (e.g., GP15)       | PWM pin for fade control |
-| LED 1 cathode (short leg)| 330Ω resistor → Pico GND     | Current limiting resistor |
-| LED 2 anode (long leg)   | Pico GPIO (e.g., GP14)       | Second PWM pin |
-| LED 2 cathode (short leg)| 330Ω resistor → Pico GND     | Current limiting resistor |
-
-<img width="1536" height="1024" alt="wiring image - AI" src="https://github.com/user-attachments/assets/db7eebaa-b6c0-4b2d-ab5b-d688e3ed3260" />
-**AI image**
-
 
 
 
