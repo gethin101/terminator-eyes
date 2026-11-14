@@ -18,6 +18,15 @@ The pico drives two 3mm LED using PWM to create smooth brightness transitions, b
 | 2x 220Ω Resistors        | Limits current to each LED so they don't burn out                   |
 | Jumper / silicon wire    | Connects all components together                                    |
 
+<img width="2448" height="3264" alt="IMG_4173" src="https://github.com/user-attachments/assets/4e67ab4b-5ea1-4bab-9b46-8bc75b58aa9c" />
+
+
+<img width="3024" height="4032" alt="IMG_9238" src="https://github.com/user-attachments/assets/7ee352fc-f876-4bc8-aaf8-0589a11201dd" />
+
+<img width="2448" height="3264" alt="IMG_4102" src="https://github.com/user-attachments/assets/b65ad308-207c-4496-aec0-4bc795ac107b" />
+
+
+
 ---
 ## Firmware:
 
